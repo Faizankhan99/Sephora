@@ -1,0 +1,327 @@
+
+  #container{
+    width: 30%;
+    border: 1px solid transparent;
+    border-radius: 9px;
+    margin: auto;
+    height: 900px;
+    background-color: rgba(255,255,255,255);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;          display:none;
+    position:absolute;
+    top: 50px;
+    left: 550px;
+    z-index:999;
+
+    /* display: block; */
+  }
+
+  #click>button{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    border-radius: 100px;
+    border: none;
+    background-color: white;
+    font-size: large;
+}
+
+#btn{
+    cursor: pointer;
+}
+
+#click>button{
+    cursor: pointer;
+}
+
+
+    h1{
+         /* border: 1px solid red; */
+          text-align: center;
+          font-size: 20px;
+          font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      #form{
+      padding: 40px;
+       margin-top:-60px;
+       /* display: none; */
+          
+      }
+      #ig{
+          width: 50%;
+          line-height: 21px;
+          height: 100px;
+          margin-bottom: -40px;   
+      }
+      #form>p{
+          width: 400px;
+          font-size: 14px;
+          /* font-weight:bold; */
+          font-family:Arial, Helvetica, sans-serif;
+          /* border: 1px solid red; */
+         
+      }
+      #form>input[type="text"],input[type="password"],input[type="number"]{
+          width: 98%;
+          height: 40px;
+          margin-top: 20px;
+          font-size: 15px;
+          border-radius: 5px;
+          border: 1px solid #ccc;
+      }
+      #container>form>div:nth-child(3){
+          display: flex;
+        
+          justify-content: space-between;
+      }
+      #form>div>input[type="text"]{
+          width: 47.3%;
+          height: 40px;
+          font-size: 15px;
+          border-radius: 5px;
+          border: 1px solid #ccc;
+          /* border: 1px solid red; */
+      }
+
+  #d{
+  /* border: 1px solid red;   */
+  margin-top: 10px;
+  display: flex;
+  font-size:13px;
+  height: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  
+
+  }
+
+#small{
+  width: 30px;
+  height: 40px;
+font-weight:400;  
+}
+input[type="checkbox"]{
+  height: 50px;
+  width: 20px;
+}
+#form>div{
+  display:flex;
+  /* border: 1px solid yellow; */
+  
+}
+
+#form>:nth-child(10){
+/* border: 1px solid yellow; */
+display: flex;
+justify-content: space-between;
+}
+div>select{
+  margin-top: 20px;
+  width: 47.7%;
+  height: 50px;
+  border-radius: 5px;
+          border: 1px solid #ccc;
+}
+#check>p{
+/* border: 1px solid red; */
+margin-left: 10px;
+font-size: 16px;
+font-weight:400;
+font-family: Arial, Helvetica, sans-serif;
+}
+#container>form>div:last-child{
+  border: 1px solid none;
+  margin-top: 10px;
+  height: 230px;
+  display: flex;
+flex-direction: column;
+}
+#container>form>div:last-child>button{
+  height:50px;
+  width: 52%;
+  border-radius: 30px;
+  background-color: #000000;
+  color: white;
+  font-size: 16px;
+  font-weight: 500px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
+}
+#container>form>div:last-child>p{
+  /* border: 1px solid red; */
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666666;
+   line-height:15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400px;
+}
+
+hr{
+    margin-bottom: -20px
+}
+  
+
+@media all and (min-width: 730px) and (max-width: 1024px){
+    #container{
+        width: 50%;
+        }
+
+
+
+
+  h1{
+       /* border: 1px solid red; */
+        font-size: 120%;
+    }
+    
+    #form{
+    padding: 20px;
+     margin-top:-20px;
+        
+    }
+ 
+    #form>p{
+        width: 80%;
+        font-size: 90%;
+        /* font-weight:bold; */
+        font-family:Arial, Helvetica, sans-serif;
+        margin-top: 35px;
+    }
+    #form>input[type="text"],input[type="password"],input[type="number"]{
+        width: 98%;
+        height: 30px;
+        margin-top: 20px;
+        font-size: 15px;
+        /* margin-top: 20px; */
+       
+    }
+
+    #form>div>input[type="text"]{
+        width: 47.3%;
+        height: 40px;
+        font-size: 15px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        /* border: 1px solid red; */
+    }
+
+#d{
+/* border: 1px solid red;   */
+margin-top: 10px;
+display: flex;
+font-size:70%;
+height: 30px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#small{
+width: 30px;
+height: 40px;
+font-weight:400;  
+}
+input[type="checkbox"]{
+height: 40px;
+width: 20px;
+}
+#form>div{
+display:flex;
+/* border: 1px solid yellow; */
+
+}
+
+div>select{
+margin-top: 20px;
+width: 47.7%;
+height: 30px;
+border-radius: 5px;
+border: 1px solid #ccc;
+} 
+
+
+}
+
+@media all and (min-width: 320px) and (max-width: 720px){
+  
+    #container{
+        width: 100%;
+        }
+
+
+
+
+  h1{
+       /* border: 1px solid red; */
+        font-size: 120%;
+    }
+    
+    #form{
+    padding: 20px;
+     margin-top:-10px;
+        
+    }
+ 
+    #form>p{
+        width: 100%;
+        font-size: 90%;
+        /* font-weight:bold; */
+        font-family:Arial, Helvetica, sans-serif;
+        margin-top: 35px;
+    }
+    #form>input[type="text"],input[type="password"],input[type="number"]{
+        width: 98%;
+        height: 30px;
+        margin-top: 20px;
+        font-size: 15px;
+       
+    }
+
+    #form>div>input[type="text"]{
+        width: 47.3%;
+        height: 30px;
+        font-size: 15px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        /* border: 1px solid red; */
+    }
+
+#d{
+/* border: 1px solid red;   */
+margin-top: 10px;
+display: flex;
+font-size:70%;
+height: 30px;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+#small{
+width: 30px;
+height: 40px;
+font-weight:400;  
+}
+input[type="checkbox"]{
+height: 40px;
+width: 20px;
+}
+#form>div{
+display:flex;
+/* border: 1px solid yellow; */
+
+}
+
+div>select{
+margin-top: 20px;
+width: 47.7%;
+height: 30px;
+border-radius: 5px;
+border: 1px solid #ccc;
+} 
+}

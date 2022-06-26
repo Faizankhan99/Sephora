@@ -1,0 +1,8 @@
+Sephora clone 
+
+team:
+    Robin,
+    Anchal,
+    Faizan Khan,
+    Aditya Pavan,
+    Abhilash Kumar

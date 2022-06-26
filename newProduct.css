@@ -1,0 +1,126 @@
+#container{
+
+display: flex;
+width: 65%;
+margin: auto;
+margin-top: 50px;;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: poppins,sans-serif;
+}
+
+#leftdiv{
+width: 20%;
+padding: 15px;
+}
+
+#rightdiv{
+
+    border-left: 1px solid rgb(209, 209, 209); 
+    width: 80%;
+    padding: 15px;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+li{
+    cursor: pointer;
+    list-style: none;
+    margin-left: -40px;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+hr{
+    height: 0.5px;
+    background-color: black;
+    
+}
+
+hr+h3{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: -10px;
+}
+
+#rightdiv>h1{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    text-align: center;
+}
+
+#product{
+ display: grid;
+ grid-template-columns: repeat(4,1fr);
+ grid-template-rows: auto;
+ gap: 30px;
+ margin-top: 30px;
+ 
+}
+#wish{
+    position: relative;
+    display: none; 
+    left: 150px;
+    margin-bottom: -25px;
+}
+
+
+#product>div>img+img{
+    width: 100%;
+}
+
+#product>div>img:last-child{
+    width: 40%;
+    margin-top: -30px;
+    margin-bottom: 0px;
+}
+#product>div{
+    text-align: center;
+}
+
+#product>div>h1{
+    font-size: 14px;
+    font-weight: 600;
+   
+}
+#product>div>h1+p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+#product>div>p+p{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+#product>div>h5{
+    margin: 0;
+    background-color: black;
+    color: white;
+    position: absolute;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 1px;
+    
+}
+#product>div:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+#product>div:hover #wish {
+    display: block;
+}
+
+
+
+

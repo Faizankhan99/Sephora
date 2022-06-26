@@ -1,0 +1,96 @@
+body{
+  /* background-image: url(https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1780&q=80); */
+ background-size: cover;
+ width: 95%;
+ /* height: 85vh; */
+}
+
+
+.feat {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.labels {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  padding: 8px;
+  text-align: left;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+   
+  align-items: flex-start;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+   
+}
+
+/* .labels:hover{
+  padding-top: 18px;
+  padding-bottom: -10px;
+ }   */
+
+.labels>img {
+  width: 60px;
+  margin-left: 45px;
+}
+
+.labelBox {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+   
+}
+
+#fetGuid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+ 
+}
+
+.giftCards {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  width: 95%;
+}
+
+.giftCard {
+  box-shadow: rgba(0, 0, 0, 0.63) 0px 1px 4px;
+  border-radius: 5px;
+
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: black;
+   
+  font-weight: 600;
+}
+
+.giftCard>img {
+  width: 100%;
+}
+
+.giftCard>h3,
+span,
+p {
+  margin-left: 15px;
+}
+
+.blueCard{
+  background-color: rgba(76, 178, 226, 0.452);
+}
+ 
